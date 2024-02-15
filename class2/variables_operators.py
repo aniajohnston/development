@@ -86,14 +86,6 @@
 
 # String
 
-first_name = 'Ania'
-last_name = 'Johnston'
-full_name = first_name + ' ' + last_name #the addition operator works on strings
-print(full_name)
-print(first_name, last_name) #comma always adds a space
-
-
-
 # fav_color = 'blue'
 # print(fav_color)
 # print(type(fav_color))
@@ -115,12 +107,31 @@ print(first_name, last_name) #comma always adds a space
 
 # String
 
+# first_name = 'Ania'
+# last_name = 'Johnston'
+# full_name = first_name + ' ' + last_name #the addition operator works on strings
+# print(full_name)
+# print(first_name, last_name) #comma always adds a space
 
-# List 
+
+# List always go in square brackets
+
+# student_grades = [100, 95, 75, 80, 40]
+# print(student_grades)
+# print(type(student_grades))
+
+# let's create a for loop. Let's use a character "s" to stand for "student grades"
+# for s in student_grades:
+#     print(s)
 
 
 # Dictionary
 
+demographic_info = {"First Name": "Ania",
+                    "Last Name": "Johnston",
+                    "State": "New York"}
+print(demographic_info)
+print(type(demographic_info))
 
 # Cast a string to an integer
 
