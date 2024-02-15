@@ -127,21 +127,39 @@
 
 # Dictionary
 
-demographic_info = {"First Name": "Ania",
-                    "Last Name": "Johnston",
-                    "State": "New York"}
-print(demographic_info)
-print(type(demographic_info))
+# demographic_info = {"First Name": "Ania",
+#                     "Last Name": "Johnston",
+#                     "State": "New York"}
+# print(demographic_info)
+# print(type(demographic_info))
 
-# Cast a string to an integer
+# Cast a string to an integer changes data type to a string to an integer
+# my_string = '5' #a number value within a string this data needs to be cleaned.
+# print(type(my_string))
 
+# new_number = int(my_string)
+# print(new_number)
+# print(type(new_number))
 
 
 # Cast integer to string
+# second_num = 10
+# print(type(second_num))
 
+# new_number = str(second_num)
+# print(type(new_number))
 
-# Student grade dataset
+# Colors
+# fav_colors = ['blue','green','red','brown'] #this list item has four elements
+# num_colors = len(fav_colors) # len means length. tells you how many elements are in your list.
+# print(num_colors)
 
+# color = 'orange' #applying len to a string tells you how many characters are in your string.
+# # my_count = len(color)
+# # print(my_count)
+
+# for c in color: #using color = 'orange'
+#     print(c)
 
 # finding amount of assignments
 
@@ -154,8 +172,15 @@ print(type(demographic_info))
 
 # Fahrenheit to Celsius
 
+# farenheit = 89
+# celsius = (farenheit-32)*5/9
+# print(celsius)
 
-# Eval
+
+# Eval let's you evaluate a string with a boolean function.
+
+cold_weather = 'True'
+print(eval(cold_weather))
 
 
 '''
