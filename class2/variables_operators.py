@@ -47,33 +47,70 @@
 
 
 # Exponents
-print(5 ** 5)
-print(2 ** 5)
-print(3 ** 6)
+# print(5 ** 5)
+# print(2 ** 5)
+# print(3 ** 6)
 
 
-# Integer Division
+# Integer Division - let's you get whole numbers with no remainders
 
+# print(10 // 3)
+# print(4 // 3)
+# print(5 // 2)
 
-# Modulo/Mod/Remainder
-
+# Modulo/Mod/Remainder   % is read "mod" pulls the remainder
+# print(5 % 2)
+# print(10 % 4)
+# print(6 % 2) #no remainder, goes in evenly.
 
 # Program to find the perimeter of a rectangle
 
+# rectangle's perimeter uses the formula 2(length + width)
 
-# Data Types
+# length = 4
+# width = 8
 
+# perimeter = 2 * (length + width)
 
-# Integer
+# print('The perimeter of this rectangle is', perimeter)
+
+# Data Types tells you what sort of data this is.
+
+# 1. Integer
+
+# num_one =  5
+# print(num_one)
+#but how do we know this is an integer?
+# print(type(num_one)) #also known as the type function
 
 
 # String
 
+first_name = 'Ania'
+last_name = 'Johnston'
+full_name = first_name + ' ' + last_name #the addition operator works on strings
+print(full_name)
+print(first_name, last_name) #comma always adds a space
 
-# Bool
 
 
-# Float
+# fav_color = 'blue'
+# print(fav_color)
+# print(type(fav_color))
+
+# Bool - boolean TRUE or FALSE has to be capital T or capital F 
+
+
+# technical_errors = False
+# print(technical_errors)
+# print(type(technical_errors))
+
+
+# Float  
+
+# num_two = 1.22
+# print(num_two)
+# print(type(num_two))
 
 
 # String
