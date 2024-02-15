@@ -21,6 +21,7 @@ print(perimeter_triangle)
 print(side_one > base)
 print(side_two < base)
 print(base >= side_one)
+print('Using boolean operators is side #1 greater than the base?', side_one > base)
 
 
 
