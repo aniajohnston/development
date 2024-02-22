@@ -9,6 +9,6 @@ animals = ['Lions', 'Tigers', 'Bears', 'Dogs', 'Cats' ] #List collection
 
 df = pd.DataFrame(animals) #Convert our list to a format which Pandas can use
 
-print(df)
+# print(df)
 
 df.to_csv('output.csv') #this will give us our output

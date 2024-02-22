@@ -20,8 +20,8 @@
 # Addition 
 # val = 8
 # val = val + 3
-# val += 3
-# print(val)
+val += 3
+print(val)
 
 # Subtraction 
 # var = 20
