@@ -30,12 +30,32 @@
 
 
 # Multiplication
-var = 5
-var *= 5
-print(var)
+# var = 5
+# var *= 5
+# print(var)
 
 
-num = 5
-num -= 2
+# num = 5
+# num -= 2
 
 # print(num)
+
+# Are we the same object? is
+
+# fname = 'Taylor'
+# new_name = fname
+# print(fname is new_name)
+
+# in
+
+# print('J' in 'January') #result is true
+# print('F' in 'March') #result is false
+
+# eval
+
+# is_open = 'True'
+# weekday = 'False'
+
+# print(eval(is_open)) #eval evaluates the boolean nature of the code
+
+# print(eval(weekday))
