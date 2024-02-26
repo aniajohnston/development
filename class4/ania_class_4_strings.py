@@ -158,16 +158,17 @@ user_input = input('Please enter your word ')
 
 # print(user_input)
 # print(type(user_input)) #type shows us data type.
-result = user_input.isdecimal()
-print('Am I a number?',result) #the comma will automatically give you space.b
+
 # Test input
-print(f'is {user_input} a number or not',result)
+result = user_input.isdecimal()
 
 
 
 # Provide output
 
+print('Am I a number?',result) #the comma will automatically give you space.b
 
+print(f'is {user_input} a number or not',result) #f is a formatted string in python.Curly brackets allow you to use your variables in the formatted string.
 
 
 
