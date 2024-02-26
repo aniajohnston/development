@@ -20,8 +20,8 @@
 # Addition 
 # val = 8
 # val = val + 3
-val += 3
-print(val)
+# val += 3
+# print(val)
 
 # Subtraction 
 # var = 20
@@ -46,7 +46,7 @@ print(val)
 # new_name = fname
 # print(fname is new_name)
 
-# in
+# in (a keyword)
 
 # print('J' in 'January') #result is true
 # print('F' in 'March') #result is false
@@ -56,6 +56,11 @@ print(val)
 # is_open = 'True'
 # weekday = 'False'
 
-# print(eval(is_open)) #eval evaluates the boolean nature of the code
+# print(eval(is_open)) #eval evaluates the boolean nature of the code Eval let's you change it to a boolean.
 
 # print(eval(weekday))
+
+user_input = input('enter True or False')
+print(type(user_input))
+eval_result = eval(user_input)
+print(type(eval_result))
