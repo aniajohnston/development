@@ -215,6 +215,35 @@ ex_4 = 'Hello world!'
 
 print(ex_4.center(65))
 
+word_5 = 'Pseudopseudohypoparthyroidism'
+print(word_5.count('p')) #only counts lowercases
+
+word_6 ='I\tam\ta\ttab'
+print(word_6)
+print(word_6.expandtabs(10))
+
+create_new_line = 'I\ am\n a\n newline'
+print(create_new_line)
+print(word_6.expandtabs(15)) #this expands our tab even more.
+
+#Find the position of the letter k
+
+word_7 = 'Dichlorodiflouromethane'
+print(word_7.find('f')) #if you're sure the letter is in there
+print(word_7.index('f')) 
+
+# print(word_7.index('x')) #breaks
+print(word_7.find('x')) #produces -1
+
+#Do both find and index incorporate 0?
+
+# is alpha() are all characters in the string in the alphabet?
+
+test_3 = 'abcde'
+test_4 = '012345'
+print(test_3.isalpha())
+print(test_4.isalpha())
+
 
 
 
