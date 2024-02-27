@@ -249,6 +249,7 @@ result = user_input.isdigit()
 
 # Provide output
 print('Is your input a number or not?', result)
+print(f'Is {user_input} a number or not?', result)
 
 
 
@@ -268,12 +269,30 @@ True
 
 # Get user input
 
+user_word_input = input("Please insert your word")
+user_number_input = int(input("Please insert your number")) #here we convert the string to an integer
+
+# print(user_word_input)
+# print(user_number_input)
+
+
+
 # Convert where needed
+
+
+#print(length_of_word)
+length_of_word = len(user_word_input)
+
+
 
 # Comparison
 
+result = (length_of_word > user_number_input)
+
+
 # Output
 
+print(f'Is {user_word_input} longer than {user_number_input}?', result)
 
 '''
 Exercise 
