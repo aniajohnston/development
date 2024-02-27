@@ -222,7 +222,7 @@ word_6 ='I\tam\ta\ttab'
 print(word_6)
 print(word_6.expandtabs(10))
 
-create_new_line = 'I\ am\n a\n newline'
+create_new_line = 'I\t am\n a\n newline'
 print(create_new_line)
 print(word_6.expandtabs(15)) #this expands our tab even more.
 
@@ -244,7 +244,13 @@ test_4 = '012345'
 print(test_3.isalpha())
 print(test_4.isalpha())
 
+# islower() Lets check for lowercase needs all to be lowercase.
 
+test_9 = 'Zebra'
+test_10 = 'affordable'
+
+print(test_9.islower())
+print(test_10.islower()) 
 
 
 
