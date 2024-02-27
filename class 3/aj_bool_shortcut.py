@@ -60,6 +60,8 @@
 
 # print(eval(weekday))
 
+# this converts the string to a Boolean.
+
 user_input = input('enter True or False')
 print(type(user_input))
 eval_result = eval(user_input)

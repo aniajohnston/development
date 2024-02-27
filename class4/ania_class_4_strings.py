@@ -43,10 +43,11 @@ print(test_character in test_string)
 #test if a certain character is in a string
 
 ''' create a quick test to see if the sub string 'spreh' can be found in the string 'Incomprehensibilities' '''
-test_char = 'spreh'
+test_chars = 'spreh'
 test_word = 'Incomprehensibilities'
 
-print(test_char in test_word)
+print(test_chars in test_word)
+
 
 
 
@@ -55,9 +56,13 @@ print(test_char in test_word)
 alphabet = 'abcdefghijklmnopqrstuvwxyz' #our argument
 
 length_of_alphabet = len(alphabet) #this requires one parameter, so one argument is in the function
+#Len has a parameter. Alphabet is the argument.
 
 print(length_of_alphabet) #tells us the length of the alphabet
 
+animal = 'horse'
+length_of_animal = len(animal)
+print(length_of_animal)
 # String methods
 
 word_1 = 'happy' #.capitalize
@@ -166,17 +171,49 @@ result = user_input.isdecimal()
 
 # Provide output
 
-print('Am I a number?',result) #the comma will automatically give you space.b
+        # print('Am I a number?',result) #the comma will automatically give you space.b
 
-print(f'is {user_input} a number or not',result) #f is a formatted string in python.Curly brackets allow you to use your variables in the formatted string.
+        # print(f'is {user_input} a number or not',result) #f is a formatted string in python.Curly brackets allow you to use your variables in the formatted string.
 
+# Reference vs Value equality == vs is
 
+x = 'hello'
+str2 = 'HELLO'.lower() #we are applying the .lower() string method to that string
 
+print(x)
+print(str2)
+print(x == str2)
+print(x is str2)
+print(id(x))
+print(id(str2))
+# the objects are not the same!
 
+test_character = 'b'
+test_string = 'bananas'
+print(test_character in test_string)
 
+word_1 = 'happy'
+print(word_1.capitalize())
 
+ex_1 = 'cereal' #capitalize me
 
+print(ex_1.capitalize())
+print('cereal'.capitalize())
 
+word_2 = 'SuPrIsE' #make all lowercase
+print(word_2.casefold())
+print(word_2.casefold())
+
+print('SurPriSe'.casefold())
+
+word_4 = 'Good Evening'
+print(word_4)
+print(word_4.center(100)) #center takes one parameter the parameter we're using in this case is 100
+print(word_4.center(50))
+
+ex_4 = 'Hello world!'
+
+print(ex_4.center(65))
 
 
 
