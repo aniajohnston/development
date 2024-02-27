@@ -213,6 +213,19 @@ print(len(username_clean))
 
 ex_21 = '  sportsfan876  ' # sanitize this string
 
+
+
+# user_input = input("What is your name? ")
+# print(user_input) #always creates a string
+
+# user_input = int(input("What is your favorite number? ")) #getting the input and casting to an integer.
+
+# print(user_input)
+# print(type(user_input))
+
+#now we will cast to an integer
+
+
 '''
 Write some code that will take a string from the user and print if it is a number or not.
 
@@ -223,14 +236,20 @@ False
 4
 True
 '''
-#1. create a variable that holds input from the user.
+
+
 # Get input from user
 
-user_input = input("What is your name? ")
-print(user_input) #always creates a string
+user_input = input("Good afternoon, please enter your input: ")
+#print(user_input)
+
 # Test input
+result = user_input.isdigit()
+# print(result)
 
 # Provide output
+print('Is your input a number or not?', result)
+
 
 
 
