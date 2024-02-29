@@ -51,50 +51,59 @@ fav_animal = 'Ostrich'
 # print(fav_animal[-5])
 # print(fav_animal[-6])
 # print(fav_animal[-7])
-# print(fav_animal[-8]) # Lets note the error
+# print(fav_animal[-8]) # Lets note the error #ostrich doesn't have this line. This character cannot be indexed.
 
 # Using bracket notation and reverse indexing, access the letter g, the letter i, the letter p
 fav_season = 'spring'
 
-print(fav_season[-1])
-print(fav_season[-3])
-print(fav_season[-5])
+# print(fav_season[-1])
+# print(fav_season[-3])
+# print(fav_season[-5])
 
 
 
 ''' Slicing '''
 # There are 3 parameters available with indexing with bracket notation [start:stop:step]
-fav_food = 'spaghetti'
-
-
+# fav_food = 'spaghetti'
+# slice_of_fav_food = fav_food[2:7] # excludes the stop character index starts at zero
+# print(slice_of_fav_food)
 # Using slicing please create a string that accesses 'rica' in 'America'
 
-country = 'America'
-
+# country = 'America'
+# slice_of_country = country[3:8]
+# print(slice_of_country)
 
 # Using slicing please create a string that accesses 'ora' in 'Dora the explorer'
-cartoon = 'Dora the explorer'
-
+# cartoon = 'Dora the explorer'
+# slice_of_cartoon = cartoon[1:4]
+# print(slice_of_cartoon)
 
 # Using slicing please create a string that accesses 'explo' in 'Dora the explorer'
-
+# slice_dora = cartoon[9:14]
+# print(slice_dora)
 
 # Using slicing please create a string that accesses 'albo' in 'Rocky Balboa'
-boxer = 'Rocky Balboa'
+# boxer = 'Rocky Balboa'
+# slice_boxer = boxer[7:12]
+# print(slice_boxer)
+# print(boxer[7:12])
 
+'''THE FOLLOWING IS CONFUSING'''
 # Let's step through this string 2 characters at a time
-superheroine = 'Wonder Woman'
+# superheroine = 'Wonder Woman'
+# print(superheroine[2:len(superheroine):2])
 
 # Lets step through this entire word and skip by 4
-word = 'Supercalifragilisticexpialidocious'
+# word = 'Supercalifragilisticexpialidocious'
+# print(word[0:len(word):2]) #start at the beginning
 
 
 '''Slicing in reverse '''
 
-animal = 'daycare' # Excludes the start character
-# print(animal[::-1]) # Full daycare in reverse
-# print(animal[5:0:-1]) # aycar
-# print(animal[6:0:-1]) # eracya
+random_word = 'daycare' # Excludes the start character
+# print(random_word[::-1]) # Full daycare in reverse
+# print(random_word[5:0:-1]) # aycar
+# print(random_word[6:0:-1]) # eracya
 
 
 '''
@@ -106,6 +115,12 @@ python
 hon
 
 '''
+# string = 'python'
+# print(string[3:6]) #works for the word python but we want one that works for every second half of a word.
+
+# Create a variable for word
+# language = 'python'
+# print(language[int((len(language)/2)):len(language)])
 
 
 '''
