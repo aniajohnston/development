@@ -29,7 +29,7 @@ word = 'Jasmine'
 greeting = 'hello'
 
 
-last_position = greeting[len(greeting)-1] # Grabbing the length minus 1 and applying to the string will get the last position
+last_position = greeting[len(greeting)-1] # Grabbing the length minus 1 and applying to the string will get the last letter.
 #print(last_position)
 
 # Using the length and bracket notation, access the last letter in the variable below
@@ -147,13 +147,20 @@ print(email)
 # Test 1: It has a "." at the third-to-last index
 # test_1 = (email[-4] == '.')
 # print('Test 1: Does the email have a "." at the third-to-last index',test_1)
-
+# (test_1 = print((email[-4] == '.'))
 # Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
 test_2 = ('@' in email[0:-5])
 print(test_2)
-# Test 3: There is at least one character before the "@" symbol
 
+# Test 3: There is at least one character before the "@" symbol
+test_3 = (True if email.index('@') > 0 else False)
+print(test_3)
+
+# using just string methods: 
+# 
 # Test 4: It doesn’t have any spaces (doesn’t contain " ")
+test_4 = " "
+print(test_4 in email) 
 
 #Final Test with and Keyword
 
