@@ -150,17 +150,15 @@ print(email)
 # (test_1 = print((email[-4] == '.'))
 # Test 2: It has exactly one "@" symbol, at the fifth-to-last index or earlier
 test_2 = ('@' in email[0:-5])
-print(test_2)
+print('You email contains an @ symbol:',test_2)
 
 # Test 3: There is at least one character before the "@" symbol
 test_3 = (True if email.index('@') > 0 else False)
-print(test_3)
+print('Your email contains an @ symbol:',test_3)
 
-# using just string methods: 
-# 
 # Test 4: It doesn’t have any spaces (doesn’t contain " ")
-test_4 = " "
-print(test_4 in email) 
+test_4 = (False if email.find(' ') >= 0 else True)
+print('Your email does not contain spaces:',test_4)
 
 #Final Test with and Keyword
 
