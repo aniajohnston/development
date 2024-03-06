@@ -31,9 +31,6 @@ This is odd
 
 user_input =int(input("Please enter your number: "))
 
-if user_input % 2 != 0:
-    print("This is odd") 
-
 ''' Else If (Elif) Statements '''
 '''
 We want a small program that will tell a student their grade based on the following scale
@@ -90,8 +87,26 @@ This is even
 
 ''' Exercise solution with an elif and else'''
 
+#Option 1 elif
+
+# if user_input % 2 != 0: #not equal
+#     print('This is odd') 
+
+# elif user_input % 2 == 0:
+#     print('This is even')
+
+#Option 2 else
 
 
+# #if/else
+if not user_input.isdecimal()
+    print(f'{user_input}is not odd or even')
+
+# if user_input % 2 != 0: #not equal
+#     print(f'{user_input} is odd') 
+
+# else:
+#     print(f'{user_input} is even')
 
 
 

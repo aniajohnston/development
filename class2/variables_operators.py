@@ -113,6 +113,10 @@
 # print(full_name)
 # print(first_name, last_name) #comma always adds a space
 
+# first = 'ania'
+# last = 'johnston'
+# print(first, last)
+# print(first + last)
 
 # List always go in square brackets
 
@@ -155,11 +159,11 @@
 # print(num_colors)
 
 # color = 'orange' #applying len to a string tells you how many characters are in your string.
-# # my_count = len(color)
-# # print(my_count)
+# my_count = len(color)
+# print(my_count)
 
 # for c in color: #using color = 'orange'
-#     print(c)
+#      print(c)
 
 # finding amount of assignments
 
@@ -177,7 +181,7 @@
 # print(celsius)
 
 
-# Eval let's you evaluate a string with a boolean function.
+# Eval let's you evaluate a string.
 
 # cold_weather = 'True'
 # print(eval(cold_weather))

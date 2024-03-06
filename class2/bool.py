@@ -28,4 +28,3 @@ print('Using boolean operators is side #1 greater than the base?', side_one > ba
 
 
 
-
