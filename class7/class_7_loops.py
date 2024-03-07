@@ -11,11 +11,11 @@
 
 
 ''' Example Create a while loop that prints every integer from 1 to 10.'''
-start = 1
-end = 11
-while start < end:
-    print(start)
-    start += 1
+# start = 1
+# end = 11
+# while start < end:
+#     print(start)
+#     start += 1
 
 
 
@@ -28,7 +28,13 @@ This allows you to take user input multiple times without writing multiple lines
 
 Lets look at code that will run infinitely until the user tells it to "stop"
 '''
+#initialize our string
+#if we fulfil user_in with 'stop' it will never run 
+# user_in = ''
 
+# while user_in != 'stop':
+#     user_in = input("Please enter a word, or 'stop' to end the loop: ")
+#     print(user_in)
 
 '''
 Exercise
@@ -103,9 +109,15 @@ Example:
 
 Hint: remember to cast to int() for each digit in the loop
 '''
+# sum = 0 #has nothing in it yet.
 
+# user_input = input('Please enter your number here: ')
 
-
+# for t in user_input:
+#     if user_input.isdecimal(): #once we confirm that it is a number it can be cast to an integer.
+#         t = int(t) #this has to be cast to an integer to be added to sum.
+#         sum += t #every time through we will add that value to sum.
+# print(f'Your total is {sum}')
 
 ''' Exercise 
 Write some code that will loop through a string and print whether each letter is a vowel or consonant.
@@ -121,7 +133,11 @@ o is a vowel
 
 '''
 
+vowels = 'aeiou'
 
+user_input = input('Enter your word: ')
+
+if 
 
 
 ''' Exercise 
